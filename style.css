@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
-img {
+
+nav img {
   max-width: 100%;
 }
 
@@ -21,6 +22,10 @@ nav {
   align-items: center;
 }
 
+nav span {
+  font-weight: 600;
+}
+
 .logo {
   font-size: 20px;
   font-weight: 600;
@@ -30,28 +35,42 @@ nav img {
   cursor: pointer;
 }
 
+
+
+
 .headline {
-  background-image: url("./img/Header-llustration-desktop.svg");
+  height: auto;
+  width: 100%;
+  background-image: url("./img/mobile-hero-image.svg");
+  text-align: center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  text-align: center;
 }
 
 .headline-content {
-  width: 600px;
+  width: 100%;
   max-width: 90%;
   margin: 0 auto;
+  padding: 64px 0;
 }
+
+.headline-title{
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+
 
 .headline-content p {
   color: #172b4d;
   font-size: 20px;
+  margin:58px 0 120px 0;
+  font-weight: 300;
 }
 
-.green {
-  color: #36b37e;
-}
 
 .social-media ul {
   display: flex;
@@ -61,4 +80,5 @@ nav img {
 .social-media li {
   display: inline-block;
   margin-right: 15px;
+  color: #505F79;
 }
